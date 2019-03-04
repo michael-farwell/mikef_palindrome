@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+112211.palindrome?  
+"racecar".palindrome?
+
+Will return a boolean.
 
 ## Development
 
