@@ -1,6 +1,6 @@
 # MikefPalindrome
 
-Checks whether a `String` is a palindrome or not.  
+Checks whether a `String` or `Integer` is a palindrome or not.  
 Returns a boolean.
 
 ## Installation
@@ -29,13 +29,11 @@ Or install it yourself as:
     "This isn't a palindrome".palindrome?
     >> false
 
-    p = "Madam, I'm Adam"
-    p.palindrome?
-    >> true
-    
-    np = "This isn't a palindrome"
-    np.palindrome?
+    12345.palindrome?
     >> false
+
+    12321.palindrome?
+    >> true
 
 ## Development
 
