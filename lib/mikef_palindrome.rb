@@ -6,13 +6,10 @@ class String
     processed_content == processed_content.reverse
   end
 
-  # Returns the letters in the string
-  def letters; end
-
   private
 
   # returns content for palindrome testing
   def processed_content
-    downcase
+    scan(/[a-z]/i).join.downcase
   end
 end
