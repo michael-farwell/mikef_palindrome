@@ -22,6 +22,10 @@ class MikefPalindromeTest < Minitest::Test
   end
 
   def test_integer_palindrome
-    assert 12_321.palindrome?
+    assert 1_234_321.palindrome?
+  end
+
+  def test_space_palindrome
+    refute '         '.palindrome?
   end
 end
